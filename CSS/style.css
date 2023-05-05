@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 29px;
+    margin-left: 20px;
+}
+.links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: -500px;
+}
+.links li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: rgb(133, 73, 73);
+}
+.nav_buttons {
+    margin-right: 30px;
+  
+}
+.log-in {
+    outline: none;
+    border: none;
+    background-color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 16.5px;
+    color: rgb(138, 80, 80);
+}
+.register {
+    margin-left: 30px;
+    padding: 8px 15px;
+    background-color: white;
+    border-radius: 15px;
+    text-transform: capitalize;
+    color: rgb(161, 102, 102);
+    border-color:  rgb(161, 102, 102);
+}
+.body-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 70px;
+}
+.img-container {
+    height: 70vh;
+    width: 30vw;
+    margin-right: 100px;
+}
+img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.paragraph {
+    width: 300px;
+    color: rgb(97, 77, 77);
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.body-section-title {
+    /* text-transform: capitalize; */
+    font-weight: bolder;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.learn-more {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.svg-body-section {
+    display: flex;
+    gap: 25px;
+}
+.dropdown li a {
+    text-decoration:none;
+}
+.dropdown li {
+    list-style: none;
+}
+.dropdown {
+    display: none;
+}
+.features:hover .dropdown {
+    position: absolute;
+    display: block;
+}
